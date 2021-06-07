@@ -1,9 +1,9 @@
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
-import { ApplicationViews } from '../ApplicationView';
-import { Nav } from '../nav/Nav';
-import { Login } from '../auth/Login';
-import { Register } from '../auth/Register';
+import { ApplicationViews } from '../../ApplicationView';
+import { Nav } from '../Nav/Nav';
+import { Login } from '../Auth/Login';
+// import { Register } from '../../auth/Register';
 import './App.scss';
 
 export const App = () => (
@@ -20,7 +20,7 @@ export const App = () => (
     }} />
 
         <Route path="/login" render={Login} />
-        <Route path="/register" render={Register} />
+        {/* <Route path="/register" render={Register} /> */}
 
   </>
 );
