@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Auth.scss';
 
 export const Login = (props) => {
     const email = React.createRef();
